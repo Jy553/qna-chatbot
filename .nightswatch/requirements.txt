@@ -1,0 +1,5 @@
+pytest
+pytest-json
+boto3
+selenium==4.16
+pyyaml

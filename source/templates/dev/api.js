@@ -1,0 +1,69 @@
+/** ************************************************************************************************
+*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
+*   SPDX-License-Identifier: Apache-2.0                                                            *
+ ************************************************************************************************ */
+
+const util = require('../util');
+
+module.exports = {
+    Description: 'This template creates dev ApiGateway',
+    Resources: {
+        API: {
+            Type: 'AWS::ApiGateway::RestApi',
+            Properties: {
+                Name: 'test',
+            },
+        },
+        get: {
+            Type: 'AWS::ApiGateway::Method',
+            Properties: {
+                HttpMethod: 'GET',
+                AuthorizationType: 'NONE',
+                Integration: {
+                    Type: 'MOCK',
+                    IntegrationResponses: [{
+                        ResponseTemplates: {
+                            'application/json': '{}',
+                        },
+                        StatusCode: '200',
+                    }],
+                    RequestTemplates: {
+                        'application/json': '{"statusCode": 200}',
+                    },
+                },
+                ResourceId: { 'Fn::GetAtt': ['API', 'RootResourceId'] },
+                MethodResponses: [{ StatusCode: 200 }],
+                RestApiId: { Ref: 'API' },
+            },
+        },
+        Deployment: {
+            Type: 'AWS::ApiGateway::Deployment',
+            Properties: {
+                RestApiId: { Ref: 'API' },
+            },
+            DependsOn: 'get',
+        },
+        Stage: {
+            Type: 'AWS::ApiGateway::Stage',
+            Properties: {
+                DeploymentId: { Ref: 'Deployment' },
+                RestApiId: { Ref: 'API' },
+                StageName: 'test',
+                MethodSettings: [{
+                    HttpMethod: '*',
+                    ResourcePath: '/*',
+                    CacheDataEncrypted: true,
+                }],
+            },
+            Metadata: { cfn_nag: util.cfnNag(['W64', 'W69']) },
+        },
+    },
+    Outputs: {
+        ApiId: {
+            Value: { Ref: 'API' },
+        },
+        Stage: {
+            Value: 'test',
+        },
+    },
+};
