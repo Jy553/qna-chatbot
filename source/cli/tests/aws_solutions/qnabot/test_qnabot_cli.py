@@ -1,7 +1,4 @@
-######################################################################################################################
-#  Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                                                #
-#  SPDX-License-Identifier: Apache-2.0                                                                               #
-######################################################################################################################
+
 
 from click.testing import CliRunner
 from aws_solutions.qnabot.cli.qnabot_cli import (

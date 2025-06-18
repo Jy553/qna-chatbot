@@ -1,8 +1,5 @@
 /* eslint-disable max-len */
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const config = require('../../config.json');
 const outputs = require('../../bin/exports');

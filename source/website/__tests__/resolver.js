@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 // Call the defaultResolver, so we leverage its cache, error handling, etc.
 module.exports = (path, options) => options.defaultResolver(path, {
     ...options,

@@ -1,8 +1,5 @@
 <!-- eslint-disable max-len -->
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
  // To Do L 83
 <template lang="pug">
 span(class="wrapper")

@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const _ = require('lodash');
 const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
 const util = require('./../../../../capability/util');

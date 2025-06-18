@@ -1,7 +1,4 @@
- /** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+ 
 
 const { LambdaClient, InvokeCommand } = require('@aws-sdk/client-lambda');
 const { S3Client, waitUntilObjectExists, GetObjectCommand } = require('@aws-sdk/client-s3');

@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const clean = require('../../lib/clean');
 const { mockClient } = require('aws-sdk-client-mock');
 const { S3Client, DeleteObjectsCommand } = require('@aws-sdk/client-s3');

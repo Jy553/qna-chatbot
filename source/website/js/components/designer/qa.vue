@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 <template lang='pug'>
 v-card(flat class="pa-0")
 span(v-show="false" :data-path="data.qid+'-.qid'") {{data.qid}}

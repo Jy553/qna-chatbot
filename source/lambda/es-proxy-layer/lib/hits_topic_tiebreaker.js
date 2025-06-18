@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const qnabot = require('qnabot/logging');
 // returns true if score is within tolerance of top_score
 function is_score_match(score, top_score) {

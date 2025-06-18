@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { evaluateConditionalChaining } = require('../../lib/fulfillment-event/evaluateConditionalChaining');
 const { encryptor } = require('../../lib/fulfillment-event/encryptor');

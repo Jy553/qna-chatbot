@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { CognitoIdentityClient, GetIdentityPoolRolesCommand, SetIdentityPoolRolesCommand } = require('@aws-sdk/client-cognito-identity');
 const customSdkConfig = require('./util/customSdkConfig');

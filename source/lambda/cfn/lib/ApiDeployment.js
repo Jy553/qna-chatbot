@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { APIGatewayClient, CreateDeploymentCommand, UpdateStageCommand, DeleteDeploymentCommand } = require('@aws-sdk/client-api-gateway');
 const customSdkConfig = require('./util/customSdkConfig');

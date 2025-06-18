@@ -1,7 +1,4 @@
-######################################################################################################################
-#  Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                                                #
-#  SPDX-License-Identifier: Apache-2.0                                                                               #
-######################################################################################################################
+
 
 # Creates or updates a Lex V2 QnABot bot
 # Automatically generates locales as specified by environment var LOCALES - from Cfn parameter.

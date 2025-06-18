@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { OpenSearchClient, UpdateDomainConfigCommand } = require('@aws-sdk/client-opensearch');
 const { mockClient } = require('aws-sdk-client-mock');

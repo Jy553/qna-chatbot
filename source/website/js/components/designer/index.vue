@@ -1,8 +1,5 @@
 <!-- eslint-disable max-len -->
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 <template lang="pug">
 v-card.root-card
   v-card-title.pa-0.bg-cyan

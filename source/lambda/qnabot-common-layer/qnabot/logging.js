@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { ComprehendClient, DetectPiiEntitiesCommand } = require('@aws-sdk/client-comprehend');
 const customSdkConfig = require('sdk-config/customSdkConfig');

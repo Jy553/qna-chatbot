@@ -1,7 +1,4 @@
-######################################################################################################################
-#  Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                                                #
-#  SPDX-License-Identifier: Apache-2.0                                                                               #
-######################################################################################################################
+
 
 import pytest
 from helpers.website_model.menu_nav import MenuNav

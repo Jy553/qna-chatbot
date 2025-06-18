@@ -1,7 +1,4 @@
- /** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+ 
 
 const convertxlsx = require('../convert-xlsx');
 const excelFile = './test/import-test.xlsx';

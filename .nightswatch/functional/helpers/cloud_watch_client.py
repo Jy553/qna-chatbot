@@ -1,7 +1,4 @@
-######################################################################################################################
-#  Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                                                #
-#  SPDX-License-Identifier: Apache-2.0                                                                               #
-######################################################################################################################
+
 
 # A client that connects with AWS CloudWatch and returns logs from log groups from a specific time period
 import boto3
