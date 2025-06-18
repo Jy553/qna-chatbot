@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const region = process.env.AWS_REGION || 'us-east-1';
 const { S3Client, GetObjectCommand, PutObjectCommand } = require('@aws-sdk/client-s3');

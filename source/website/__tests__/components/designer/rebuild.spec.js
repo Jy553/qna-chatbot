@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const rebuildModule = require('../../../js/components/designer/rebuild.vue');
 import { shallowMount } from '@vue/test-utils';
 

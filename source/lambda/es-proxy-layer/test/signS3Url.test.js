@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const presigner = require('@aws-sdk/s3-request-presigner'); // eslint-disable-line @typescript-eslint/no-var-requires, @typescript-eslint/no-unsafe-assignment
 const { GetObjectCommand, S3Client } = require('@aws-sdk/client-s3');

@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { BedrockAgentRuntimeClient, RetrieveAndGenerateCommand } = require("@aws-sdk/client-bedrock-agent-runtime");
 const { mockClient } = require('aws-sdk-client-mock');

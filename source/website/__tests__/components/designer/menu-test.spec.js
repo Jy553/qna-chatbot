@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const menuTestModule = require('../../../js/components/designer/menu-test.vue');
 import { shallowMount } from '@vue/test-utils';
 

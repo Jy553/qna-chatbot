@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const sentimemt = require('../../../lib/middleware/sentiment');
 const awsMock = require('aws-sdk-client-mock');

@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { LexModelsV2Client, DescribeBotCommand } = require('@aws-sdk/client-lex-models-v2');
 const { S3Client, GetObjectCommand } = require('@aws-sdk/client-s3');

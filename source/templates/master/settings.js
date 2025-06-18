@@ -1,8 +1,5 @@
 /* eslint-disable max-len */
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const defaultSettings = {
     ENABLE_DEBUG_RESPONSES: 'false', // Appends a debugging message in the aws-lex-web-ui client for each QnABot response.

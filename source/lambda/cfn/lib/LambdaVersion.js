@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { LambdaClient, PublishVersionCommand } = require('@aws-sdk/client-lambda');
 const customSdkConfig = require('./util/customSdkConfig');

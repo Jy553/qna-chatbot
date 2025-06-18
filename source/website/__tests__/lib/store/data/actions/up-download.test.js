@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const upDownloadModule = require('../../../../../js/lib/store/data/actions/up-download');
 const axios = require('axios');
 const util = require('../../../../../js/lib/store/data/actions/util');

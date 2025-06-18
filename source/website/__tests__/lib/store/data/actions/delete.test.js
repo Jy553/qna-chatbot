@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const deleteModule = require('../../../../../js/lib/store/data/actions/delete');
 const util = require('../../../../../js/lib/store/data/actions//util');
 

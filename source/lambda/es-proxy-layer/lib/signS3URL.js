@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { getSignedUrl } = require('@aws-sdk/s3-request-presigner');
 const { GetObjectCommand, S3Client } = require('@aws-sdk/client-s3');

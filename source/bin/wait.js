@@ -1,8 +1,5 @@
 #! /usr/bin/env node
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 process.env.AWS_PROFILE = require('../config.json').profile;
 process.env.AWS_DEFAULT_REGION = require('../config.json').region;

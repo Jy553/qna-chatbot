@@ -1,8 +1,5 @@
 
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const utilModule = require('../../../../js/lib/store/page/util');
 
 describe('util page', () => {

@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const { KendraClient, CreateFaqCommand, DescribeFaqCommand, DeleteFaqCommand, ListFaqsCommand } = require('@aws-sdk/client-kendra');
 const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
 const { mockClient } = require('aws-sdk-client-mock');

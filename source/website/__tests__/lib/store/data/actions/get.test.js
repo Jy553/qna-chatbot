@@ -1,8 +1,5 @@
 
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 const getModule = require('../../../../../js/lib/store/data/actions/get');
 const util = require('../../../../../js/lib/store/data/actions/util');
 

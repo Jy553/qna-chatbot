@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 const { S3Client, waitUntilObjectExists, PutObjectCommand, GetObjectCommand } = require('@aws-sdk/client-s3');
 const customSdkConfig = require('sdk-config/customSdkConfig');

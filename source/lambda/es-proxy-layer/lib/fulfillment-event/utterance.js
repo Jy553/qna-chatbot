@@ -1,7 +1,4 @@
-/** ************************************************************************************************
-*   Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.                             *
-*   SPDX-License-Identifier: Apache-2.0                                                            *
- ************************************************************************************************ */
+
 
 function inIgnoreUtterances(utterance, ignoreUtterancesSetting) {
     const cleanedUtteranceList = ignoreUtterancesSetting.split(',').map((item) => item.replace(/[.!;-?]/g, '').trim().toLowerCase());
